@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezept xmlns="http://www.example.org/Aufgabe_2_d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Aufgabe_2_d Aufgabe_3_d.xsd ">
+  <Allgemein>
+    <name>name</name>
+    <titel>titel</titel>
+    <zutaten>zutaten</zutaten>
+    <kommentar>kommentar</kommentar>
+  </Allgemein>
+  <Zutaten>
+    <name>name</name>
+    <anzahl>0</anzahl>
+    <einheit>einheit</einheit>
+  </Zutaten>
+  <Zubereitung>
+    <arbeitszeit>0</arbeitszeit>
+    <schwierigkeitsgrad>schwierigkeitsgrad</schwierigkeitsgrad>
+    <brennwert>0</brennwert>
+    <beschreibung>beschreibung</beschreibung>
+  </Zubereitung>
+  <Kommentar>
+    <name>name</name>
+    <datum>2001-01-01</datum>
+    <uhrzeit>0</uhrzeit>
+    <text>text</text>
+    <antwort>antwort</antwort>
+    <text_2>text_2</text_2>
+  </Kommentar>
+</rezept>

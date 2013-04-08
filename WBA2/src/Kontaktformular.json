@@ -1,0 +1,42 @@
+{
+    gruppenanmeldung:{
+        gruppenleiter:{
+            vorname:' Max ',
+            nachname:' Mustermann ',
+            email:' max.mustermann@gmx.de ',
+            geburtsdatum:' 02.05.1991 ',
+            erfahrung:{
+                value:[
+                    ' Amateur ',
+                    ' Fortgeschrittener ',
+                    ' Profi '
+                ]
+            },
+            schlagzeug:{
+                value:[
+                    ' vorhanden ',
+                    ' nicht vorhanden '
+                ]
+            }
+        },
+        person:{
+            vorname:' Gundula ',
+            nachname:' Gause ',
+            email:' gundula.gause@gmx.de ',
+            geburtsdatum:' 14.07.1986 ',
+            erfahrung:{
+                value:[
+                    ' Amateur ',
+                    ' Fortgeschrittener ',
+                    ' Profi '
+                ]
+            },
+            schlagzeug:{
+                value:[
+                    ' vorhanden ',
+                    ' nicht vorhanden '
+                ]
+            }
+        }
+    }
+}
