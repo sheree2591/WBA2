@@ -42,11 +42,11 @@
 </xs:complexType>
 </xs:element>
 
-<xs:element name ="Kommentar">
+<xs:element name="Kommentar">
 <xs:complexType>
 	<xs:sequence>
 		<xs:element name ="name" type ="xs:string"/>
-		<xs:element name ="datum" type="xs:date"/>
+		<xs:element name ="datum" type = "xs:date"/>
 		<xs:element name ="uhrzeit" type ="xs:integer"/>
 		<xs:element name ="text" type ="xs:string"/>
 		<xs:element name ="antwort" type ="xs:string"/>
