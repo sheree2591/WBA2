@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezept xmlns="http://www.example.org/Aufgabe_2_d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Aufgabe_2_d Aufgabe_3_d.xsd ">
+  <Allgemein>
+    <titel> Spaghetti Bolognese </titel>
+    <zutaten>Zutaten</zutaten>
+    <kommentar>Kommentar</kommentar>
+  </Allgemein>
+  <Zutaten>
+    <name> Spaghetti </name>
+    <anzahl> 500 </anzahl>
+    <einheit> Gramm </einheit>
+    <name> Hackfleisch </name>
+    <anzahl> 500 </anzahl>
+    <einheit> Gramm </einheit>
+    <name> Zwiebeln </name>
+    <anzahl> 1 </anzahl>
+    <einheit> Stück </einheit>
+  </Zutaten>
+  <Zubereitung>
+    <arbeitszeit> 30 </arbeitszeit>
+    <schwierigkeitsgrad> einfach </schwierigkeitsgrad>
+    <brennwert> 400 </brennwert>
+    <beschreibung> Zuerst die Zwiebel kleinschneiden und glasig braten..</beschreibung>
+  </Zubereitung>
+  <Kommentar>
+    <name> Peterchen </name>
+    <datum>2013-08-23</datum>
+    <uhrzeit> 12.30 </uhrzeit>
+    <text> Super Rezept </text>
+  </Kommentar>
+</rezept>
