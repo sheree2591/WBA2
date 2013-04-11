@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rezept xmlns="http://www.example.org/Aufgabe_2_d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/Aufgabe_2_d Aufgabe_3_d.xsd ">
   <Allgemein>
-    <name>name</name>
-    <titel>titel</titel>
-    <zutaten>zutaten</zutaten>
-    <kommentar>kommentar</kommentar>
+    <titel> Lasagne </titel>
+    <zutaten>Zutaten</zutaten>
+    <kommentar>Kommentar</kommentar>
   </Allgemein>
   <Zutaten>
-    <name>name</name>
-    <anzahl>0</anzahl>
-    <einheit>einheit</einheit>
+    <name> Lasagneplatten </name>
+    <anzahl> 20 </anzahl>
+    <einheit>Stück</einheit>
+    <name> Hackfleisch </name>
+    <anzahl> 500 </anzahl>
+    <einheit> Gramm </einheit>
+    <name> Zwiebeln </name>
+    <anzahl> 1 </anzahl>
+    <einheit> Stück </einheit>
   </Zutaten>
   <Zubereitung>
-    <arbeitszeit>0</arbeitszeit>
-    <schwierigkeitsgrad>schwierigkeitsgrad</schwierigkeitsgrad>
-    <brennwert>0</brennwert>
-    <beschreibung>beschreibung</beschreibung>
+    <arbeitszeit> 45 </arbeitszeit>
+    <schwierigkeitsgrad> einfach </schwierigkeitsgrad>
+    <brennwert> 580</brennwert>
+    <beschreibung> Zuerst die Zwiebel kleinschneiden und glasig braten..</beschreibung>
   </Zubereitung>
   <Kommentar>
-    <name>name</name>
+    <name> Hans Wurst </name>
     <datum>2001-01-01</datum>
-    <uhrzeit>0</uhrzeit>
-    <text>text</text>
-    <antwort>antwort</antwort>
-    <text_2>text_2</text_2>
+    <uhrzeit> 12.30 </uhrzeit>
+    <text> schmeckt toll </text>
+    <antwort>
+    <text_2> danke </text_2>
+    </antwort>
   </Kommentar>
 </rezept>

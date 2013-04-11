@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Aufgabe_2_d" xmlns:tns="http://www.example.org/Aufgabe_2_d" elementFormDefault="qualified">
+<xs:element name ="rezept">
+	<xs:complexType>
+		<xs:sequence>
+
+			<!-- <xs:element name="titel" type="string"/>
+			<xs:element name="zutaten" type="zutaten_type"/>
+			<xs:element name="zubereitung" type="zubereitung_type"/>
+			<xs:element name="kommentar" type="kommentar_type"/>  -->
+
+			<xs:element name="Allgemein">
+			<xs:complexType>
+				<xs:sequence>
+				<xs:element name ="titel" type ="xs:string"/>
+				<xs:element name ="zutaten" type ="xs:string"/>
+				<xs:element name ="kommentar" type ="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="Zutaten">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name ="name" type ="xs:string"/>
+					<xs:element name ="anzahl" type ="xs:integer"/>
+					<xs:element name ="einheit" type ="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="Zubereitung">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name ="arbeitszeit" type ="xs:integer"/>
+					<xs:element name ="schwierigkeitsgrad" type ="xs:string"/>
+					<xs:element name ="brennwert" type ="xs:integer"/>
+					<xs:element name ="beschreibung" type ="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			</xs:element>
+			
+			<xs:element name="Kommentar">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name ="name" type ="xs:string"/>
+					<xs:element name ="datum" type = "xs:date"/>
+					<xs:element name ="uhrzeit" type ="xs:integer"/>
+					<xs:element name ="text" type ="xs:string"/>
+					<xs:element name ="antwort" type ="xs:string"/>
+					<xs:element name ="text_2" type ="xs:string"/>
+				</xs:sequence>
+			</xs:complexType>
+			</xs:element>
+
+</xs:sequence>	
+</xs:complexType>
+</xs:element>
+</xs:schema>
