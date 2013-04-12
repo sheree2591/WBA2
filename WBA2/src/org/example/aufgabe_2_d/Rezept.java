@@ -9,6 +9,8 @@
 package org.example.aufgabe_2_d;
 
 import java.math.BigInteger;
+import java.util.Date;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -358,7 +360,7 @@ public class Rezept {
         protected String name;
         @XmlElement(required = true)
         @XmlSchemaType(name = "date")
-        protected XMLGregorianCalendar datum;
+        protected Date datum;
         @XmlElement(required = true)
         protected BigInteger uhrzeit;
         @XmlElement(required = true)
@@ -400,20 +402,20 @@ public class Rezept {
          *     {@link XMLGregorianCalendar }
          *     
          */
-        public XMLGregorianCalendar getDatum() {
+        public Date getDatum() {
             return datum;
         }
 
         /**
          * Legt den Wert der datum-Eigenschaft fest.
          * 
-         * @param value
+         * @param d
          *     allowed object is
          *     {@link XMLGregorianCalendar }
          *     
          */
-        public void setDatum(XMLGregorianCalendar value) {
-            this.datum = value;
+        public void setDatum(Date d) {
+            this.datum = d;
         }
 
         /**
@@ -511,6 +513,12 @@ public class Rezept {
         public void setText2(String value) {
             this.text2 = value;
         }
+
+		public void add(String string) {
+			String value = null;
+			this.text = value;
+			
+		}
 
     }
 
