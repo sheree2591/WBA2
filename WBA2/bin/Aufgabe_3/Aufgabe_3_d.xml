@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe_3_d.xsd">
+  <Rezept>
+    <Rezeptname>Lasagne</Rezeptname>
+    <Autor>Peggy</Autor>
+    <Zutaten>
+      <Zutat>
+        <Name>Lasagneplatten</Name>
+      </Zutat>
+    </Zutaten>
+    <Portionen>2</Portionen>
+    <Zubereitung>
+      <Arbeitszeit>
+        <Dauer>45</Dauer>
+      </Arbeitszeit>
+      <Schwierigkeitsgrad>mittel</Schwierigkeitsgrad>
+      <Brennwert-p.P>580</Brennwert-p.P>
+      <Vorgänge>Zwiebeln kleinschneiden und glasig braten.
+      Anschließend Hackfleisch hinzugeben und braten lassen.</Vorgänge>
+    </Zubereitung>
+    <Kommentieren>
+      <Kommentar/>
+    </Kommentieren>
+  </Rezept>
+</Rezepte>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Rezepte xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Aufgabe_3_d.xsd">
+  <Rezept>
+    <Rezeptname>Paprika-Sahne Hähnchen</Rezeptname>
+    <Autor>Gandalf</Autor>
+    <Zutaten>
+      <Zutat>
+        <Name>Hähnchenbrust</Name>
+        <Anzahl> 400 </Anzahl>
+        <Einheit> gramm </Einheit>
+      </Zutat>
+      <Zutat>
+      	<Name> Schlagsahne</Name>
+      	<Anzahl> 250 </Anzahl>
+        <Einheit> ml </Einheit>
+      </Zutat>
+    </Zutaten>
+    <Portionen>3</Portionen>
+    <Zubereitung>
+      <Arbeitszeit>
+        <Dauer>30</Dauer>
+      </Arbeitszeit>
+      <Schwierigkeitsgrad>einfach</Schwierigkeitsgrad>
+      <Brennwert-p.P>470</Brennwert-p.P>
+      <Vorgänge>Hähnchenbrust in ein Backblech legen
+      Paprika-Sahne Soße über Hähnchenbrust gießen. </Vorgänge>
+    </Zubereitung>
+    <Kommentieren>
+      <Kommentar/>
+    </Kommentieren>
+  </Rezept>
+</Rezepte>
